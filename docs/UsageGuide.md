@@ -577,6 +577,8 @@ The plugin configuration requires that two secure parameters are defined:
 * __outputProperty__ tells the plugin which activity property to write the form results JSON to
 * __WIPProperty__ tells the plugin which activity property to write the value for a work-in-progress (not complete) form to
 
+Therefore, in the right column you need to specify the property label.  The left column entries must be inputProperty, outputProperty and WIPProperty.
+
 e.g.
 ![ofscSecureParams](ofscSecureParams.png)
 **_OFSC Plugin Secure Parameters_**
